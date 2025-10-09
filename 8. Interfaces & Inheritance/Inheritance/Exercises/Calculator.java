@@ -32,6 +32,7 @@ class AdvancedMathUtils  extends MathUtils {
 }
 
 public class Calculator {
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         MathUtils obj1 = new AdvancedMathUtils();
         AdvancedMathUtils obj2 = new AdvancedMathUtils();
